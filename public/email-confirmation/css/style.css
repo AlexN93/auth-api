@@ -1,0 +1,196 @@
+*{padding:0;margin:0;box-sizing:border-box;list-style:none;text-decoration:none;}
+.container{max-width:1310px;width:100%;}
+.main{float: left; width: 100%; background: url(../images/hotstock-bg.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; padding-bottom: 30px}
+header{float: left; width: 100%; margin: 50px 0 40px}
+.phone_n_watch{float: right; width: 75%; padding-top: 45px}
+ul.social_network {
+    float: right;
+    margin: 0;
+}
+ul.social_network li{
+   width: 50px; height: 50px; border:1px solid #d00a28; border-radius: 50%; text-align: center; line-height: 50px; display: inline-block; float: none;
+}
+ul.social_network li{margin-right: 30px;}
+ul.social_network li:last-child{margin-right: 0}
+ul.social_network li a{font-size: 20px; color: #ffffff}
+ul.partners {
+    margin: 0;
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+ul.partners li {
+    float: none;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: center;
+}
+ul.partners li img{width: 70px; display: inline-block; float: none;}
+ul.partners li:last-child{margin-right: 0}
+ul.stores {
+    width: 40%; width: 100%;
+    max-width: 125px;
+    float: left;
+    margin: 0
+}
+ul.stores li {
+    float: left;
+    width: 100%;
+    background: #000;
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+.stores_partners {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: -105px;
+}
+.stores_partners h3{color: #282828; font-size: 15px; font-weight: 300; font-family: 'Montserrat', sans-serif;}
+ul.stores li:last-child{margin-bottom: 0}
+.content{float: left; width: 100%;padding-top: 50px}
+.content h1{ font-size: 40px; font-family: 'Montserrat', sans-serif; margin:0; color: #ffffff; text-transform: uppercase; font-weight: normal;}
+.content h2{ font-size: 25px; font-family: 'Montserrat', sans-serif; margin:0; color: #ffffff; text-transform: uppercase; margin: 15px 0 25px; font-weight: 300}
+.content p{ font-size: 18px; font-family: 'Montserrat', sans-serif; margin:0; color: #ffffff; line-height: 25px; font-weight: 300}
+.dis-cont { margin-top:60px; font-family:Montserrat;padding-bottom: 50px;}
+.dis-cont h1{ font-size: 40px; font-family: 'Montserrat', sans-serif; margin:5px 0 25px 0; color: #000; text-transform: uppercase; font-weight: normal;}
+.dis-cont p.ques{ font-size: 20px; font-family: 'Montserrat', sans-serif; margin:20px 0 10px; color: #000; text-transform: uppercase; margin: 15px 0 25px; font-weight: 400}
+.dis-cont p{ font-size: 15px; font-family: 'Montserrat', sans-serif; margin:0; color: #000; line-height: 20px; font-weight: 300}
+.dis-cont ul li {font-size: 15px; font-family: 'Montserrat', sans-serif; margin:0; color: #000; line-height: 20px; font-weight: 300}
+
+@media (min-width: 320px) and (max-width:350px){
+	.get-ready-text { padding-bottom:100px;}	
+}
+@media (min-width: 351px) and (max-width:425px){
+	.get-ready-text { padding-bottom:160px;}	
+}
+@media (min-width: 426px) and (max-width:479px){
+	.get-ready-text { padding-bottom:172px;}
+}
+@media (min-width: 320px) and (max-width:479px){
+	.main{text-align: center;}
+	.main .pull-right{text-align: center;}
+	ul.social_network{float: none; display: inline-block; margin-top: 20px;}
+	.phone_n_watch{padding: 0; width:100%; float: none; display: inline-block; max-width: 450px}
+	.stores_partners{margin: 0; top:-20px;}
+	.content{padding-top: 25px; }
+	.content h1{font-size: 25px}
+	.content h2{font-size: 18px}
+	.content p{font-size: 14px; line-height: 20px}
+	ul.stores{max-width: 400px; width: 100%; float: none; display: inline-block; margin-top: 20px}
+	ul.stores li{width: 165px; padding: 5px 10px; display: inline-block; float: none; margin: 0 ; height: 50px}
+	ul.partners{text-align: center;}
+	ul.partners li{float: none; display: inline-block; }
+	header {margin: 20px 0 40px;}
+	.phone_n_watch img { width:300px; margin:0 auto; display:block;}
+}
+@media (min-width: 480px) and (max-width:767px){
+	.main{text-align: center;}
+	.main .pull-right{text-align: center;}
+	ul.social_network{float: none; display: inline-block; margin-top: 20px;}
+	.phone_n_watch{padding: 0; width:100%; float: none; display: inline-block; max-width: 450px}
+	.stores_partners{margin: 0}
+	.content{padding-top: 25px; }
+	.content h1{font-size: 25px}
+	.content h2{font-size: 18px}
+	.content p{font-size: 14px; line-height: 20px}
+	ul.stores{max-width: 400px; width: 100%; float: none; display: inline-block; margin-top: 20px}
+	ul.stores li{width: 165px; padding: 5px 10px; display: inline-block; float: none; margin: 0 ; height: 50px}
+	ul.partners{text-align: center;}
+	ul.partners li{float: none; display: inline-block; }
+	header {margin: 20px 0 40px;}
+	.get-ready-text { padding-bottom:225px;}
+	.phone_n_watch img { width:400px; margin:0 auto; display:block;}
+	.stores_partners { position:relative; top:-55px;}
+}
+@media (min-width: 768px) and (max-width:991px){
+	.content h1 { font-size:38px;}
+	.content h2 {font-size: 23px;}
+	.content p {font-size: 15px; line-height: 23px;}
+	.stores_partners { margin-top:20px;}
+	.powered-by { width:50%;}
+}
+@media (min-width: 992px) and (max-width:1199px){
+	.content p {font-size: 15px; line-height: 23px;}
+	ul.stores li { width:85%;}
+}
+@media (min-width: 1450px) and (max-width:1560px){
+	.container{max-width:1410px;width:100%;}
+	.content h1 { font-size:45px;}
+	.content h2 {font-size: 28px;}
+	.content p {font-size: 20px; line-height: 28px;}
+}
+@media (min-width: 1561px) and (max-width:1760px){
+	.container{max-width:1520px;width:100%;}
+	.content h1 { font-size:48px;}
+	.content h2 {font-size: 30px;}
+	.content p {font-size: 21px; line-height: 29px;}
+}
+@media (min-width: 1761px) and (max-width:1920px){
+	.container{max-width:1720px;width:100%;}
+	.content h1 { font-size:50px;}
+	.content h2 {font-size: 32px;}
+	.content p {font-size: 22px; line-height: 30px;}
+}
+@media (min-width: 1921px) and (max-width:5460px){
+	.container{max-width:100%;width:90%;}
+	.content h1 { font-size:55px;}
+	.content h2 {font-size: 36px;}
+	.content p {font-size: 24px; line-height: 32px;}
+}
+
+
+
+/* ================ Confirmed Page ================= */
+.border_bx {
+    border: 1px solid #eee;
+    padding: 24px;
+    background-color: #fdfdfd;
+}
+
+.confirmedmail {
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.border_bx p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.border_bx p a {
+    color: #ff0024;
+    font-weight: 400;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #830817;
+    color: #fff;
+    padding: 12px;
+}
+
+footer p {
+    color: #eee;
+    margin: 0;
+}
+
+footer ul li a {
+    margin: 0;
+    color: #eee;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
